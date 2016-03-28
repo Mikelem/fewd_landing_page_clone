@@ -6,6 +6,7 @@ html {
 }
 body {
     background-color: Lightgray;
+    font-family:'Roboto',sans-serif;
 }
 /*div {
     border: 1px solid chocolate;
@@ -13,8 +14,9 @@ body {
 /* Navigation Section */
 
 .top-navigation {
+    //position:fixed;
     background-color: #fff;
-    font-family: 'Roboto', sans-serif;
+    //font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #838994;
     letter-spacing: 0.03em;
@@ -31,7 +33,7 @@ body {
 }
 .top-navigation .links {
     float: right;
-    font-family: 'Roboto', sans-serif;
+    //font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 1.04rem;
     margin-top: 1.7rem;
@@ -59,24 +61,27 @@ body {
 }
 .introduction {
     background-image: url(../images/first-background.jpg);
-    background-position: center bottom;
+    background-position: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    height:31rem;
+    height:37rem;
+    overflow: auto;
 }
 .introduction .content {
     text-align: center;
     color:white;
-    font-family:'Robato', sans-serif;
+    //font-family:'Robato', sans-serif;
     font-weight:300;
 }
 .introduction h1{
     margin-top:17.5rem;
+    margin-bottom:0px;
     font-size:3.125rem;
     font-weight:300;
 }
 .introduction h3 {
-    font-size: 1.563;
+    margin-top:1.25rem;
+    font-size: 1.5625;
     font-weight:300;
     margin-top:1.25rem;
 }
@@ -89,4 +94,9 @@ button {
     border-style:none;
     font-size: 1.125rem;
     margin-top: 1.563;
+    text-shadow: none;
+}
+button:hover {
+    background-color:#d9400e;
+    cursor:pointer;
 }
