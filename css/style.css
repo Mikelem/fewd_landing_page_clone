@@ -7,9 +7,9 @@ html {
 body {
     background-color: Lightgray;
 }
-div {
+/*div {
     border: 1px solid chocolate;
-} 
+} */
 /* Navigation Section */
 
 .top-navigation {
@@ -56,4 +56,37 @@ div {
 .logo {
     height:70px;
     margin-left:14px;
+}
+.introduction {
+    background-image: url(../images/first-background.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:31rem;
+}
+.introduction .content {
+    text-align: center;
+    color:white;
+    font-family:'Robato', sans-serif;
+    font-weight:300;
+}
+.introduction h1{
+    margin-top:17.5rem;
+    font-size:3.125rem;
+    font-weight:300;
+}
+.introduction h3 {
+    font-size: 1.563;
+    font-weight:300;
+    margin-top:1.25rem;
+}
+button {
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+    background-color: #f15a29;
+    color:white;
+    width:10rem;
+    border-style:none;
+    font-size: 1.125rem;
+    margin-top: 1.563;
 }
