@@ -44,7 +44,7 @@ body {
     font-size: 3rem;
     margin: 20px;
 }
-.cases .devices {
+.devices {
     margin: 0px auto;
     width: 33.33333%;
     display: inline-block;
@@ -52,7 +52,7 @@ body {
     border: 1px solid black;
     box-sizing: border-box;
     height: 4em;
-    display:flex;
+    //display:flex;
 }
 .devices {
     display:flex;
