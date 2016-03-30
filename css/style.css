@@ -54,7 +54,7 @@ body {
 */
 .logo {
     height:70px;
-    margin-left:14px;
+    margin-left:34px;
 }
 .top-navigation a {
     text-decoration: none;
@@ -116,6 +116,7 @@ body {
 }
 .introduction h3 {
     margin-top:1.25rem;
+    margin-bottom: 1.25rem;
     font-size: 1.563rem;
 }
 .buttons {
@@ -141,7 +142,7 @@ button:hover {
 .cases {
     overflow:hidden;
     background-color: #fff;
-    padding-bottom:5rem;
+    padding-bottom:1rem;
 }
 .cases .content {
     margin-top:7.875rem;
@@ -161,7 +162,7 @@ button:hover {
 }
 .cases h3 {
     font-size: 1.5rem;
-    margin: 1.625rem 0 3.125rem;
+    margin: 1.625rem 0 9.125rem;
     font-weight:400;
 }
 /*.devices h3 {
@@ -169,7 +170,7 @@ button:hover {
     font-weight:400;
 }*/
 .devices {
-    height:300px;
+    height:auto;
     float:left;
     display:inline-block;
     text-align: center;
@@ -195,7 +196,7 @@ button:hover {
 }
 hr {
     border:0;
-    border-top:1px solid black;
+    border-top:1px solid lightgrey;
     text-align: center;
 }
 
@@ -210,6 +211,7 @@ hr {
     margin:1.25rem 5px;
 }
 .social h4 {
+    padding-top:20px;
     font-weight: 500;
     font-size: .9em;
     letter-spacing: .05em;
